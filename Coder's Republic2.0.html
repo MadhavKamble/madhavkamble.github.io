@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	margin:0px;
+	padding-right:35px;
+	padding-left:50px;
+	background-color:#0B0C10;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+}
+.navbar{
+  overflow: hidden;
+  background-color: #45A29E;
+}
+.navbar a {
+  float:left;
+  color: #1F2833;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color:#0B0C10 ;
+  color:white;
+}
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.navbar a.split {
+  float: right;
+  background-color: #0B0C10;
+  color: white;
+}
+.container{
+	display:flex;
+	-webkit-display:flex;
+	-webkit-flex-flow:row wrap;
+	flex-flow:row wrap;
+	width:100%;
+	height:550px;
+	margin:auto;
+	background-color:transparent;
+	box-shadow:8px 8px #34495E;
+	cursor:pointer;
+}
+
+.myDiv {
+  border: 5px outset #C5C6C7;
+  background-color:#0B0C10;
+  text-align: center;
+  height:150px;
+  align-items:center;
+  font-family:castellar;
+}
+.details{
+	text-align:center;
+	align-items:center;
+	width:27%;
+	margin:26px;
+	height:430px;
+	padding:10px;
+	border-radius: 15px 50px 30px;
+	background-color:#C5C6C7;
+	box-shadow:8px 8px #1F2833;
+}
+.details h1{
+	font-family:century gothic;
+	font-size:20px;
+	font-style:italic;
+}
+.details p{
+	font-familt:cambria;
+	font-size:16px;
+}
+.details:hover{
+	scale:1.1;
+	box-shadow:8px 8px #85929E;
+	background-color:#0B0C10;
+	color:#66FCF1;
+	opacity:1;
+}
+</style>
+</head>
+<body>
+<header style="width:100%;background-color:#0B0C10;margin-bottom:5px;color:#CD1D6A">
+  <div class="myDiv">
+  <a href="#"><img src="D:\Youtube and Stuff\stock images\revised_logo1.png"alt="Coder's Republic Logo" style="width:110px;height:100px;float:left;margin-top:20px;margin-left:20px;"></img>
+  </a>
+  <h1>&lt;-Coder's Republic-&gt;</h1>
+  <cite style="color:yellow">One stop solution for programming needs</cite>
+</div>
+  </header>
+  <nav class="navbar">
+  <a href="https://www.google.co.in/" target="_blank"><b>Google</b></a>
+  <a href="https://www.youtube.com/" target="_blank"><b>Youtube</b></a>
+  <a href="https://www.wikipedia.org/" target="_blank"><b>Wikipedia</b></a>
+  <a href="D:\WEB projects\login.html" target="_blank"><b>Login</b></a>
+  <a href="#home" class="split">Home</a>
+</nav>
+<div class="container">
+
+<div class="details">
+<img src="D:\Youtube and Stuff\stock images\html5-removebg-preview.png" style="height:50px;width:50px;"></img>
+<h2>HTML</h2>
+<p>text1.1</p>
+<p>text1.2</p>
+</div>
+<div class="details">
+<img src="D:\Youtube and Stuff\stock images\css3-removebg-preview.png" style="height:50px;width:50px;"></img>
+<h2>CSS</h2>
+<p>text2.1</p>
+<p>text2.2</p>
+</div>
+<div class="details">
+<img src="D:\Youtube and Stuff\stock images\javascript-removebg-preview.png" style="height:50px;width:50px;"></img>
+<h2>JavaScript</h2>
+<p>text3.1</p>
+<p>text3.2</p>
+</div>
+</div>
+<div class="container">
+
+<div class="details">
+<img src="D:\Youtube and Stuff\stock images\python.png" style="height:50px;width:50px;"></img>
+<h2>Python</h2>
+<p>text4.1</p>
+<p>text4.2</p>
+</div>
+<div class="details" >
+<img src="D:\Youtube and Stuff\stock images\c-removebg-preview.png" style="height:50px;width:50px;"></img>
+<h2>C</h2>
+<p>text5.1</p>
+<p>text5.2</p>
+</div>
+<div class="details">
+<img src="D:\Youtube and Stuff\stock images\C++-removebg-preview.png" style="height:50px;width:50px;"></img>
+<h2>C++</h2>
+<p>text6.1</p>
+<p>text6.2</p>
+</div>
+</div>
+</body>
+</html>
